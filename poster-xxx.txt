@@ -1,0 +1,26 @@
+:me: mailto:bruel@irit.fr[Jean-Michel Bruel]
+:poster-title: Ingénierie Dirigées par les Modèles : application à l'ambiant
+:auteur-poster: JM Bruel
+:equipe: http://www.irit.fr/-Equipe-MACAO-[MACAO]
+
+// Leave it (change title at the begining of the document)
+=== {poster-title}
+
+ifdef::backend-slidy2[>>>]
+
+==== Participants
+
+Les participants de l'équipe {equipe} à cette action sont :
+
+- {me}
+- John Smith
+
+ifdef::backend-slidy2[>>>]
+
+==== Description
+
+Description de l'action...
+
+// Pensez à inclure une illustration (ou plusieurs) ou à commentez la commande si aucune
+image::monIllustration.png["Commentaire Web"]
+

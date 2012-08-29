@@ -1,0 +1,64 @@
+:title: Axe Systèmes Socio-Techniques Ambiants : Démos et Posters
+:doctype: article
+:description: Journée SSTA du 6 septembre 2012
+:keywords: SSTA
+:Author: R. Bastide, J.-M. Bruel, M.-P. Gleizes 
+:Author Initials: JMB
+:Email: bruel@irit.fr
+:Revision: 1.0
+:localdate: {sys: date +%d/%m/%Y}
+:Date: {localdate}
+:startdate: 29/08/2012
+:toc_title: Content
+:slideshowlocation: [IRIT]
+:duration: 10
+:slidebackground: asciidocslidy
+:copyright: {date={localdate}}, {slideshowlocation} *** {author} *** Powered by Asciidoc and W3C Slidy &#169; 
+:incremental!:
+:indir: dessins
+
+= {title}
+
+// raccourcis sites
+:asciidoc: http://www.methods.co.nz/asciidoc[AsciiDoc]
+:slidy2: http://www.w3.org/Talks/Tools/Slidy2/[W3C HTML Slidy]
+:irit: http://www.irit.fr[IRIT]
+:ssta: http://www.irit.fr[SSTA]
+
+// data
+:dessins: ./dessins
+:images: ./images
+
+// personnes et institutions
+:jmb: mailto:bruel@irit.fr[Jean-Michel Bruel]
+:univ-tlse: http://www.univ-toulouse.fr[Univesité de Toulouse]
+
+//////////////////////
+//================================================================
+== Listes
+//================================================================
+
+=== Figures
+
+. <<fig:eggs,\{eggstitle}>>
+/////////////////////////
+
+== Introduction
+
+Ce document constitue la compilation des posters...
+
+//================================================================
+// chapitres 
+//================================================================
+
+== Posters
+
+include::poster-xxx.txt[]
+
+
+
+== A propos de ce document...
+
+**********************************************************************
+Document généré par {jmb} via {asciidoc} le {Date}.
+**********************************************************************
