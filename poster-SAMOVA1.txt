@@ -1,5 +1,5 @@
 :me: mailto:pinquier@irit.fr[Julien Pinquier]
-:poster-title: IMMED : Indexation de données MultiMédia Embarquées pour le diagnostic et le suivi des traitements des Démences
+:poster-title: IMMED : Indexation de données MultiMédia Embarquées pour le diagnostic et le suivi des traitements des Démences
 :auteur-poster: Julien Pinquier
 :equipe: http://www.irit.fr/recherches/SAMOVA/[SAMOVA]
 

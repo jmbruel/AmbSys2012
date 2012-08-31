@@ -72,11 +72,11 @@ Ce document constitue la compilation des posters...
 == Posters
 
 //include::poster-xxx.txt[]
-
+<<<
 include::poster-MACAO.txt[]
-
+<<<
 // from Julien Pinquier <pinquier@irit.fr>
-include::poster-SAMOVA1.txt[]
+include::poster-SAMOVA1.txt[width="70%"]
 
 
 == A propos de ce document...
