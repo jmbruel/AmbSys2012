@@ -1,0 +1,29 @@
+:me: mailto:pinquier@irit.fr[Julien Pinquier]
+:poster-title: IMMED : Indexation de données MultiMédia Embarquées pour le diagnostic et le suivi des traitements des Démences
+:auteur-poster: Julien Pinquier
+:equipe: http://www.irit.fr/recherches/SAMOVA/[SAMOVA]
+
+// Leave it (change title at the begining of the document)
+=== {poster-title}
+
+ifdef::backend-slidy2[>>>]
+
+==== Participants
+
+Les participants de l'équipe {equipe} à cette action sont :
+
+- Régine André-Obrecht
+- Patrice Guyot
+- Philippe Joly
+- {me}
+
+ifdef::backend-slidy2[>>>]
+
+==== Description
+
+L'équipe {equipe} intervient principalement sur l'indexation en activités du quotidien du patient. Il s'agit de caractériser l’environnement sonore (ambiance) dans lequel évolue le patient à son domicile. Des sons élémentaires tels la parole, la musique et les bruits sont étudiés afin de retouver des zones caractéristiques de discussion, les sonneries (téléphone, sonnette, etc.), les bruits d'utilisation d'objets (bruit d'eau du robinet, aspirateur, chocs, etc.). La fusion entre l'audio et la vidéo permet alors de reconnaître 26 activités différentes. 
+
+
+// Pensez à inclure une illustration (ou plusieurs) ou à commentez la commande si aucune
+image::SAMOVA1.png["Description du projet IMMED"]
+

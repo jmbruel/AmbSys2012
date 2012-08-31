@@ -1,4 +1,4 @@
-:title: Axe Systèmes Socio-Techniques Ambiants : Démos et Posters
+:title: Rencontre autour de l'Axe Systèmes Socio-Techniques Ambiants
 :doctype: article
 :description: Journée SSTA du 6 septembre 2012
 :keywords: SSTA
@@ -23,7 +23,7 @@
 :asciidoc: http://www.methods.co.nz/asciidoc[AsciiDoc]
 :slidy2: http://www.w3.org/Talks/Tools/Slidy2/[W3C HTML Slidy]
 :irit: http://www.irit.fr[IRIT]
-:ssta: http://www.irit.fr[SSTA]
+:ssta: http://www.irit.fr/-Systemes-sociotechniques-ambiants,675-?lang=fr[Systèmes SocioTechniques Ambiants]
 
 // data
 :dessins: ./dessins
@@ -43,6 +43,24 @@
 . <<fig:eggs,\{eggstitle}>>
 /////////////////////////
 
+== Programme
+
+Première partie ouverte à l’ensemble des membres de l’IRIT (Auditorium J Herbrand)
+
+13h45:: Accueil des participants
+14h00:: Ouverture par la Direction de l’IRIT
+14h10:: Présentation de l’axe {ssta} 
+par Marie-Pierre Gleizes, Responsable de l’axe
+14h40:: Présentation de Midi-Pyrénées Innovation 
+15h00:: Présentation de Toulouse Tech Transfer
+15h10:: Pause Café	
+ 
+Deuxième partie réservée aux membres de l’axe {ssta} (Salle des thèses)
+
+15h30:: Démonstrations 
+16h30:: Discussions 
+17h00:: Conclusion
+
 == Introduction
 
 Ce document constitue la compilation des posters...
@@ -53,8 +71,12 @@ Ce document constitue la compilation des posters...
 
 == Posters
 
-include::poster-xxx.txt[]
+//include::poster-xxx.txt[]
 
+include::poster-MACAO.txt[]
+
+// from Julien Pinquier <pinquier@irit.fr>
+include::poster-SAMOVA1.txt[]
 
 
 == A propos de ce document...

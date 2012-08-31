@@ -1,0 +1,28 @@
+:me: mailto:bruel@irit.fr[Jean-Michel Bruel]
+:poster-title: Ingénierie Dirigées par les Modèles : application à l'ambiant
+:auteur-poster: JM Bruel
+:equipe: http://www.irit.fr/-Equipe-MACAO-[MACAO]
+
+// Leave it (change title at the begining of the document)
+=== {poster-title}
+
+ifdef::backend-slidy2[>>>]
+
+==== Participants
+
+Les participants de l'équipe {equipe} à cette action sont :
+
+- {me}, Professeur
+- mailto:iulian.ober@irit.fr[Iulian Ober], Maître de Conférence, HdR
+- mailto:hamid.ober@irit.fr[Brahim Hamid], Maître de Conférence
+- Manzoor Ahmad, Doctorant
+
+ifdef::backend-slidy2[>>>]
+
+==== Description
+
+Au sein de l'équipe {equipe}, spécialisée en Ingénierie Dirigées par les Modèles (IDM), nous appliquons nos compétences en génie logiciel au service du développement d'applications embarquées ...
+
+// Pensez à inclure une illustration (ou plusieurs) ou à commentez la commande si aucune
+image::monIllustration.png["Commentaire Web"]
+

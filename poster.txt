@@ -1,0 +1,6 @@
+= SSTA Journée du 6/9/2012
+
+== How my poster will look like
+
+include::poster-xxx.txt[]
+
