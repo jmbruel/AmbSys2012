@@ -73,10 +73,14 @@ Ce document constitue la compilation des posters...
 
 //include::poster-xxx.txt[]
 <<<
+include::poster-ELIPSE.txt[]
+
+<<<
 include::poster-MACAO.txt[]
+
 <<<
 // from Julien Pinquier <pinquier@irit.fr>
-include::poster-SAMOVA1.txt[width="70%"]
+include::poster-SAMOVA1.txt[width="80%"]
 
 
 == A propos de ce document...

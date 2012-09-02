@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>documents</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>main.txt</string>
+			<key>lastUsed</key>
+			<date>2012-08-31T21:16:04Z</date>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>poster-MACAO.txt</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>poster-SAMOVA1.txt</string>
+			<key>lastUsed</key>
+			<date>2012-08-31T21:16:31Z</date>
+			<key>selected</key>
+			<true/>
+		</dict>
+	</array>
+	<key>fileHierarchyDrawerWidth</key>
+	<integer>200</integer>
+	<key>metaData</key>
+	<dict/>
+	<key>showFileHierarchyDrawer</key>
+	<true/>
+	<key>windowFrame</key>
+	<string>{{210, 4}, {1070, 774}}</string>
+</dict>
+</plist>

@@ -1,0 +1,30 @@
+:me: Frederic.Vella@irit.fr[Frédéric Vella]
+:poster-title: Logiciels de rééducation cognitive pour un meilleur maintien à domicile des personnes âgées 
+:auteur-poster: Frédéric Vella
+
+// Leave it (change title at the begining of the document)
+=== {poster-title}
+
+ifdef::backend-slidy2[>>>]
+
+==== Participants
+
+- Frédéric VELLA (IRIT)
+- Nadine VIGOUROUX (IRIT)
+- Pierre RUMEAU (Laboratoire de Gérontechnologie du Gérontopôle du CHU de Toulouse)
+
+ifdef::backend-slidy2[>>>]
+
+==== Description
+
+Lorsque l’altération cognitive est installée, le but de la prise en soins est la qualité de vie du patient et de ses aidants. Près de 20% des patients souffrants d’une maladie d’Alzheimer (MA) A à un stade sévère restent à domicile, souvent seules. Aux stades légers à modérés, il faut respecter les capacités restantes de la personne, et les Technologies de l’Information et de la Communication peuvent être une aide pour prévenir, stimuler et/ou pallier. Dans le cadre du projet TANDEM, nous avons développé l’application de rééducation TANDEM_GERONTOPOLE qui contient deux exercices de rééducation cognitive « faire du café » et « agenda ». 
+
+L’exercice « _faire du café_ » a pour but de faire travailler la mémoire de planification. Celui-ci se déroule en 2 étapes : l’apprentissage de la technique d’interaction adaptée « aimantation », et l’exercice lui-même. La phase d’apprentissage est précédée d’une phase d’initiation de manipulation de la souris (déplacement  du curseur à l’écran).
+
+L’exercice « _agenda_ » a pour but de stimuler les capacités cognitives des patients à travers un jeu faisant appel à l’orientation temporelle et à la mémoire des dates. L’exercice s’appuie sur trois dates: la date du jour, la date d'anniversaire d'un proche identifiable au moyen de sa photo et celle du jour de visite du médecin.
+Durant la démonstration de ces deux exercices, nous illustrerons l’importance de la conception de l’interaction homme machine (IHM) pour tenir compte des troubles cognitifs de la MA et du vieillissement normal de la personne. Nous commenterons  les choix de conception d'IHM  : nature et importance des retours sonores et visuels pour les réponses en direction de la personne, la technique d’interaction pour le déplacement des objets et la couleur noir du fond d’écran pour l’aspect visuel.
+L’application TANDEM_GERONTOPOLE permet d’étudier les usages et  les effets des outils de rééducation. 
+
+image:fairecafe.png["Faire du café"] image:agenda.png["Agenda"]
+
+Contacts : vella@irit.fr, vigourou@irit.fr et rumeau.p@chu-toulouse.fr	
