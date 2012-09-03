@@ -79,6 +79,10 @@ include::poster-SAMOVA1.txt[]
 include::poster-SMAC1.txt[]
 
 <<<
+// from Guivarch
+include::poster-guivarch.txt[]
+
+<<<
 
 == A propos de ce document...
 
