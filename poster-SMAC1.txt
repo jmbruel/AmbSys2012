@@ -1,0 +1,71 @@
+:me: mailto:glize@irit.fr[Pierre Glize]
+:poster-title: Rosace :  Auto-organisation d’un collectif de robots en situation de crise
+:auteur-poster: Pierre Glize
+:equipe: http://www.irit.fr/-Equipe-SMAC-[SMAC]
+
+// Leave it (change title at the begining of the document)
+=== {poster-title}
+
+ifdef::backend-slidy2[>>>]
+
+==== Participants
+
+Les participants de l'équipe {equipe} à cette action sont :
+
+- André Machonin
+- Marie-Pierre Gleizes
+- {me}
+
+
+ifdef::backend-slidy2[>>>]
+
+==== Description
+
+===== Problématique
+
+- Etudier et développer un  ensemble d’entités logicielles et de robots autonomes mobiles communicants  et  coopérants  en environnement est celui d’entités mobiles coopérantes fortement dynamique [1].
+- Intégrer  notamment  des  propriétés de sécurité, d’auto-préservation, et des capacités d’accomplir des missions par adaptation autonome. 
+- Le contexte considéré en situation de gestion de crise (ex : feux de forêts), dotées de moyens de communication hétérogènes et évolutifs.
+
+// Pensez à inclure une illustration (ou plusieurs) ou à commentez la commande si aucune
+image::smac1.png[]
+
+===== Comment?
+
+Auto-adaptation pour la planification des tâches du collectif de robots autonomes.
+
+- Application de la théorie des AMAS [2]
+- Planification autonome
+- Décision locale des Agents avec comportement auto-organisateur coopératif
+
+===== Comportement coopératif
+
+- Chaque robot a une procédure locale générique
+- Convient pour des robots hétérogènes
+- Collectif de robots ouvert en temps réel
+
+image::smac2.png[]
+
+===== Résultats
+
+- Le temps de secours aux blessés est en abscisse
+- L’ordonnée indique le cumul des gravités des blessures des victimes non encore secourues 
++
+image:smac3.png[] image:smac4.png[]
++
+- La courbe rose est la stratégie de référence où les victimes les plus proches des robots sont secourues en premier. 
+- Le graphique en bleu est fourni en appliquant la théorie des systèmes multi-agents auto-adaptatifs [3]. 
+
+===== Conclusion &amp; Perspectives
+
+- Adapté à la résolution de problèmes complexes et dynamiques
+- Coopération naturelle entre les humains et les robots
+- Facilite le passage à l’échelle 
+- Application généralisable à d’autres secteurs (surveillance...)
+
+[1] Projet Soutenu par le RTRA-STAE. Réseau thématique de recherche avancée sciences et technologies pour l’aéronautique et l’espace.
+
+[2] D. Capera, J.P. Georgé, M.P. Gleizes and P. Glize. The AMAS Theory for complex problem solving based on self-organising cooperative agents. In ESAX, LNCS, vol.4457, Springer 2007, pp. 284 – 299.
+
+[3] S. Lemouzy, V. Camps, and P. Glize, Principles and Properties of a MAS Learning Algorithm: a Comparison with Standard Learning Algorithms Applied to Implicit Feedback Assessment. IAT-IEEE/WIC/ACM, 2011, pp. 228–235.
+

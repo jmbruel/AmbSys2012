@@ -33,15 +33,7 @@
 :jmb: mailto:bruel@irit.fr[Jean-Michel Bruel]
 :univ-tlse: http://www.univ-toulouse.fr[Univesité de Toulouse]
 
-//////////////////////
-//================================================================
-== Listes
-//================================================================
-
-=== Figures
-
-. <<fig:eggs,\{eggstitle}>>
-/////////////////////////
+//pass::[<link rel="stylesheet" href="print.css" type="teext/css" media="print">]
 
 == Programme
 
@@ -80,8 +72,13 @@ include::poster-MACAO.txt[]
 
 <<<
 // from Julien Pinquier <pinquier@irit.fr>
-include::poster-SAMOVA1.txt[width="80%"]
+include::poster-SAMOVA1.txt[]
 
+<<<
+// from Pierre
+include::poster-SMAC1.txt[]
+
+<<<
 
 == A propos de ce document...
 

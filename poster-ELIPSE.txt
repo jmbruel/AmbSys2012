@@ -9,8 +9,8 @@ ifdef::backend-slidy2[>>>]
 
 ==== Participants
 
-- Frédéric VELLA (IRIT)
-- Nadine VIGOUROUX (IRIT)
+- Frédéric VELLA ({IRIT})
+- Nadine VIGOUROUX ({IRIT})
 - Pierre RUMEAU (Laboratoire de Gérontechnologie du Gérontopôle du CHU de Toulouse)
 
 ifdef::backend-slidy2[>>>]
@@ -25,6 +25,6 @@ L’exercice « _agenda_ » a pour but de stimuler les capacités cognitives des
 Durant la démonstration de ces deux exercices, nous illustrerons l’importance de la conception de l’interaction homme machine (IHM) pour tenir compte des troubles cognitifs de la MA et du vieillissement normal de la personne. Nous commenterons  les choix de conception d'IHM  : nature et importance des retours sonores et visuels pour les réponses en direction de la personne, la technique d’interaction pour le déplacement des objets et la couleur noir du fond d’écran pour l’aspect visuel.
 L’application TANDEM_GERONTOPOLE permet d’étudier les usages et  les effets des outils de rééducation. 
 
-image:fairecafe.png["Faire du café"] image:agenda.png["Agenda"]
+image:fairecafe.png["Faire du café", width="45%"] image:agenda.png["Agenda", width="45%"]
 
 Contacts : vella@irit.fr, vigourou@irit.fr et rumeau.p@chu-toulouse.fr	
