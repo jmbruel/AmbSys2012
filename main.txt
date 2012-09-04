@@ -53,15 +53,23 @@ Deuxième partie réservée aux membres de l’axe {ssta} (Salle des thèses)
 16h30:: Discussions 
 17h00:: Conclusion
 
+== Contenu de ce livret
+
+- <<intro,Introduction>>
+- <<demos,Démos>>
+- <<posters,Posters>>
+
 <<<
 
 //== Introduction
 // from MPG
+[[intro]]
 include::introduction.txt[]
 
 <<<
 
 == Démos
+[[demos]]
 
 Liste des démos :
 
@@ -106,6 +114,7 @@ include::poster-guivarch.txt[]
 <<<
 
 == Posters
+[[posters]]
 
 Liste des posters :
 
