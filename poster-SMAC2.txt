@@ -58,7 +58,7 @@ image:smac3.png[] image:smac4.png[]
 
 ===== Conclusion &amp; Perspectives
 
-- Adapté à la résolution de problèmes complexes et dynamiques
+- Adapté à la résolution de problèmes complexes et dynamiques [3]
 - Coopération naturelle entre les humains et les robots
 - Facilite le passage à l’échelle 
 - Application généralisable à d’autres secteurs (surveillance...)

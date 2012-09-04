@@ -83,10 +83,6 @@ include::poster-MACAO.txt[]
 include::poster-SAMOVA1.txt[]
 
 <<<
-// from Pierre Glize -- DEMO
-include::poster-SMAC1.txt[]
-
-<<<
 // from Gatto -- DEMO
 include::poster-SMAC2.txt[]
 
