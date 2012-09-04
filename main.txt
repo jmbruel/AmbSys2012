@@ -65,21 +65,31 @@ Ce document constitue la compilation des posters...
 
 //include::poster-xxx.txt[]
 <<<
+// from Fréd. Vella -- DEMO
 include::poster-ELIPSE.txt[]
 
 <<<
+// from Fréd. Vella -- DEMO
+include::poster-elipse2.txt[]
+
+<<<
+// from JMB -- poster
 include::poster-MACAO.txt[]
 
 <<<
-// from Julien Pinquier <pinquier@irit.fr>
+// from Julien Pinquier <pinquier@irit.fr> -- DEMO
 include::poster-SAMOVA1.txt[]
 
 <<<
-// from Pierre
+// from Pierre Glize -- DEMO
 include::poster-SMAC1.txt[]
 
 <<<
-// from Guivarch
+// from Gatto -- DEMO
+include::poster-SMAC2.txt[]
+
+<<<
+// from Guivarch -- DEMO
 include::poster-guivarch.txt[]
 
 <<<

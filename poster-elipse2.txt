@@ -1,0 +1,49 @@
+:me: mailto:Louis-Pierre.Berge@irit.fr[Louis-Pierre Bergé]
+:manu: mailto:Emmanuel.Dubois@irit.fr[Emmanuel Dubois]
+:minica: mailto:Minica.Houry-Panchetti@irit.fr[Minica Houry-Panchetti]
+:poster-title: Technique d’Interaction ambiantes pour la manipulation d’Environnement Virtuel 3D : application à la simulation d’une maison intelligente et au couplage physique via le bus KNX
+:auteur-poster: JM Bruel
+:equipe1: http://www.irit.fr/-Equipe-ELIPSE-[ELIPSE]
+:equipe2: http://www.irit.fr/-Equipe-VORTEX-[VORTEX]
+
+// Leave it (change title at the begining of the document)
+=== {poster-title}
+
+ifdef::backend-slidy2[>>>]
+
+==== Participants
+
+Les participants de l'équipe {equipe1} et {equipe2} à cette action sont :
+
+- {me}
+- {manu}
+- {minica}
+
+ifdef::backend-slidy2[>>>]
+
+==== Originalité
+
+- Support à la conception d’environnement ambiant pour le maintien à domicile
+- Aide à la manipulation des données acquises et au pilotage d'une maison intelligente
+
+==== Approche
+- Environnement 3D afin de visualiser le domicile équipé et d’impliquer les utilisateurs finaux dans la conception du système 
+- Techniques d’Interactions Ambiantes, mécanismes d’interactions facile à appréhender et à apprendre, basées sur la manipulation d’objets de la vie quotidienne : faciliter l’utilisation pour des non expérimentés avec la 3D
+
+==== Fonctionnalités
+[]
+|=======
+|Exploration de l’environnement 3D : écran tactile, objet tangible |image:1.png["1",width="25%"] image:2.png["1",width="25%"]
+|Consultation de données, pilotage via le bus KNX : écran tactile |image:3.png["3",width="8%"] image:4.png["4",width="8%"]
+|Conception du domicile : objets tangibles |image:5.png["5",width="15%"] image:6.png["6",width="15%"]
+|=======
+
+
+==== Problématique de recherche sous-jacente
+- Techniques d’Interactions Ambiantes adaptées à un public large pour les Environnements Virtuels 3D
+- Comprendre l’adéquation et le couplage des Techniques d’Interactions Avancées pour les Environnements Virtuels 3D
+
+
+// Pensez à inclure une illustration (ou plusieurs) ou à commentez la commande si aucune
+image::HomeSimu3D.png[""]
+
