@@ -22,7 +22,7 @@ ifdef::backend-slidy2[>>>]
 
 L'équipe {equipe} en collaboration avec le groupe RAP du LAAS-CNRS, 
 poursuit des travaux initiés en 2006 sur l'interaction homme-robot faisant intervenir différentes modalités de
-communication, notamment la parole et le geste. Dans le cadre du projet RIDDLE (Robots perceptuels et interactifs
+communication, notamment la parole et le geste [Burger, 2010]. Dans le cadre du projet RIDDLE (Robots perceptuels et interactifs
 dédiés aux environnements quotidiens) nouvellement accepté par l'ANR en 2012, cette interaction aura pour cadre
 l'environnement quotidien de la personne à son domicile.
 La prise en compte de ce contexte d'interaction se fera au travers de la constitution d'une carte de l'environement
@@ -37,8 +37,8 @@ et de l'environnement de la personne, les objets cible étant repérés par le b
 faisant intervenir des personnes en situation de maintien à domicile viendront valider les approches proposées dans 
 le cadre de ce projet. 
 
-
+[Burger, 2010] Brice Burger. Fusion de données audio-visuelles pour l'interaction Homme-Robot.
+Thèse de doctorat, Université Paul Sabatier, janvier 2010.
 
 // Pensez à inclure une illustration (ou plusieurs) ou à commentez la commande si aucune
-image::SAMOVA2.png["Description du projet RIDDLE", width="50%"]
-
+image::SAMOVA2.png["Description du projet RIDDLE",width="50%"]

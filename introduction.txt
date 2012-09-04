@@ -107,6 +107,8 @@ ifdef::backend-slidy2[>>>]
 . Constitution, indexation et enrichissement d'un corpus de sons de l’environnement, Projet ANR CORPUS CIESS, Partenaires : OCTOGONE – Audiogamming –  IRIT : SAMoVA.
 . EcoToul : Mobilité intelligente par géolocalisation de smartphones, Projet de “l’appel à idées innovantes” de la communauté urbaine du Grand Toulouse. Partenaires : IRIT (SEPIA, SMAC), UPETEC
 
+<<<
+
 === Implications scientifiques dans des instances régionales
 
 -	MSHST (Maison des Sciences Humaines et de la Société de Toulouse), axe « Vieillissement handicap et qualité de vie » P Glize 

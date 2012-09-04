@@ -63,46 +63,71 @@ include::introduction.txt[]
 
 == Démos
 
+Liste des démos :
+
+. <<reduc,Rééducation cognitive>>
+. <<3d,Environnement virtuel 3D>>
+. <<immed,IMMED>>
+. <<riddle,RIDDLE>>
+. <<rosace,ROSACE>>
+. <<amadeus,AMADEUS>>
+
 //include::poster-xxx.txt[]
 <<<
 // from Fréd. Vella -- DEMO
+[[reduc]]
 include::poster-ELIPSE.txt[]
 
 <<<
 // from Fréd. Vella -- DEMO
+[[3d]]
 include::poster-elipse2.txt[]
 
 <<<
 // from Julien Pinquier <pinquier@irit.fr> -- DEMO
+[[immed]]
 include::poster-SAMOVA1.txt[]
 
 <<<
 // from Isabelle -- DEMO
+[[riddle]]
 include::poster-SAMOVA2.txt[]
 
 <<<
 // from Gatto -- DEMO
+[[rosace]]
 include::poster-SMAC2.txt[]
 
 <<<
 // from Guivarch -- DEMO
+[[amadeus]]
 include::poster-guivarch.txt[]
-
-<<<
-// from Jean-Paul -- DEMO
-include::poster-income.txt[]
-
-<<<
-// from Pierre -- DEMO
-include::poster-ecotool.txt[]
 
 <<<
 
 == Posters
 
+Liste des posters :
+
+. <<macao,Equipe MACAO>>
+. <<income,Projet INCOME>>
+. <<sig,Equipe SIG>>
+. <<ecotoul,Projet Ecotoul>>
+
 <<<
 // from JMB -- poster
+[[macao]]
 include::poster-MACAO.txt[]
+
+<<<
+// from Jean-Paul
+[[income]]
+include::poster-income.txt[]
+
+<<<
+// from Pierre
+[[ecotoul]]
+include::poster-ecotool.txt[]
 
 <<<
 
