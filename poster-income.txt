@@ -1,0 +1,38 @@
+:me: mailto:arcangel@irit.fr[Jean-Paul Arcangeli]
+:poster-title: Projet ANR INCOME : INfrastructure de gestion de COntexte Multi-Échelle pour l’Internet des objets
+:auteur-poster: J.-P. Arcangeli
+:equipesmac: http://www.irit.fr/-Equipe-SMAC-[SMAC]
+:equipesig: http://www.irit.fr/-Equipe-SIG-[SIG]
+:equipesiera: http://www.irit.fr/-Equipe-SIERA-[SIERA]
+:income: http://www.anr-income.fr[INCOME]
+
+
+// Leave it (change title at the begining of the document)
+=== {poster-title}
+
+ifdef::backend-slidy2[>>>]
+
+==== Participants
+
+Les partenaires du projet {income} sont l’{IRIT}, l’Institut Telecom SudParis (équipe ACMES) et la société ARTAL (Labège, 31). Pour l’{IRIT} les équipes impliquées sont :
+
+- {equipesmac}
+- {equipesig}
+- {equipesiera}
+
+La durée du projet est de 44 mois (2012-2015) et la coordination est assure par {me} (SMAC). Ce projet est labellisé par les pôles de compétitivité System@tic et AerospaceValley
+
+ifdef::backend-slidy2[>>>]
+
+==== Description
+
+Les applications sensibles au contexte à destination d’utilisateurs mobiles représentent un marché important pour les applications de demain. Ces applications sont consommatrices d’informations de contexte de haut niveau d’abstraction, obtenues après traitement et filtrage de nombreuses informations de contexte brutes issues directement de l’environnement de l’utilisateur. L’entité logicielle responsable de la collecte, de la gestion (traitement et filtrage) et de la présentation des informations de contexte aux applications s’appelle communément un gestionnaire de contexte. C’est une entité essentielle pour le développement des applications sensibles au contexte grand public. La gestion de contexte est un problème traité généralement dans le cadre de réseaux ambiants. Dans le cadre de réseaux multi-échelles (ambiant, Internet, nuages) et au-dessus de l’Internet des objets, la gestion de contexte devient autrement plus complexe. Elle doit prendre en compte l’hétérogénéité des données, répartir les traitements et les flux d’informations, assurer le passage à l’échelle, gérer des informations de qualité de contexte pour permettre des prises de décision appropriées, respecter la vie privée lors de la transmission des informations de contexte, s’adapter à des environnements dynamiques, ou encore identifier des situations en mixant des données issues de l’Internet des objets et de bases de connaissances. INCOME a pour ambition de fournir des méthodes et des outils pour la gestion de contexte multi-échelle et de répondre aux verrous associés.
+
+INCOME cible le niveau infrastructure pour des applications grand public sensibles au contexte, à déployer à grande échelle en termes de nombre de sites de déploiement et de nombre d’utilisateurs. Pour ce type d’application, les informations de contexte disponibles à l’utilisation varient en fonction des dimensions géographique et temporelle. Dans ces conditions, des stratégies de déploiement autonomiques des entités de gestion de contexte sont essentielles. Ces stratégies permettront de résoudre automatiquement les problèmes liés à l’instabilité et à l’ouverture de l’environnement tout en respectant un ensemble de contraintes de qualité de service ou de sécurité.
+Le programme scientifique du projet INCOME se décompose en trois thèmes principaux : (i) la gestion de contexte multi-échelle, (ii) la prise en compte des propriétés extra-fonctionnelles de qualité de contexte et de respect de la vie privée, (iii) le déploiement autonomique des entités de gestion de contexte.
+
+INCOME apporte une contribution en termes de composants logiciels et d’intergiciels pour faciliter le développement et le déploiement d’applications grand public sensibles au contexte construites au dessus de l’Internet des objets. INCOME proposera des solutions de gestion de contexte multi-échelle génériques applicables à un grand nombre de domaines applicatifs grand public. Plusieurs scénarios applicatifs seront affinés pendant le projet et permettront de valider notre approche.
+
+// Pensez à inclure une illustration (ou plusieurs) ou à commentez la commande si aucune
+image:: schemaPositionnementV7.png["La gestion de contexte multi-échelle dans INCOME"]
+

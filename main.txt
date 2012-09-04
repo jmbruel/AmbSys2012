@@ -93,6 +93,10 @@ include::poster-SMAC2.txt[]
 include::poster-guivarch.txt[]
 
 <<<
+// from Jean-Paul -- DEMO
+include::poster-income.txt[]
+
+<<<
 
 == A propos de ce document...
 
