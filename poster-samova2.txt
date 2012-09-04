@@ -1,0 +1,44 @@
+﻿:me: mailto:isabelle.ferrane@irit.fr[Isabelle Ferrané]
+:poster-title: Interaction Homme Robot : vers une perception multimodale de l'homme dans son environnement au quotidien... Le projet RIDDLE
+:auteur-poster: Isabelle Ferrané
+:equipe: http://www.irit.fr/recherches/SAMOVA/[SAMOVA]
+
+// Leave it (change title at the begining of the document)
+=== {poster-title}
+
+ifdef::backend-slidy2[>>>]
+
+==== Participants
+
+Les participants de l'équipe {equipe} à cette action sont :
+
+- Julien Pinquier
+- Christophe Mollaret
+- {me}
+
+ifdef::backend-slidy2[>>>]
+
+==== Description
+
+L'équipe {equipe} en collaboration avec le groupe RAP du LAAS-CNRS, 
+poursuit des travaux initiés en 2006 sur l'interaction homme-robot faisant intervenir différentes modalités de
+communication, notamment la parole et le geste. Dans le cadre du projet RIDDLE (Robots perceptuels et interactifs
+dédiés aux environnements quotidiens) nouvellement accepté par l'ANR en 2012, cette interaction aura pour cadre
+l'environnement quotidien de la personne à son domicile.
+La prise en compte de ce contexte d'interaction se fera au travers de la constitution d'une carte de l'environement
+(disposition des pièces de vie) dans lequel le robot sera amené à se déplacer et à repérer les emplacements clés
+(mobilier, ...) liés aux habitudes de la personne. Cet environnement sera complété par un ensemble d'objets cible
+indispensables au quotidien (lunettes, clés, télécommandes, ...). Il s'agira pour le robot de percevoir la personne 
+(parole, geste, mouvement, manipulation des objets cible...) et d'être attentifs aux bruits de l'environnement.
+Le robot pourra répondre aux sollicitations de la personne, se déplacer pour mieux interagir avec elle afin de
+l'aider à retrouver ou à ranger les objets cibles à leurs emplacements habituels. La perception multimodale de 
+la personne sera basée sur l'analyse conjointe de l'audio et de la vidéo et sur la connaissance du contexte d'interaction 
+et de l'environnement de la personne, les objets cible étant repérés par le biais de tag RFID. Des scénarios
+faisant intervenir des personnes en situation de maintien à domicile viendront valider les approches proposées dans 
+le cadre de ce projet. 
+
+
+
+// Pensez à inclure une illustration (ou plusieurs) ou à commentez la commande si aucune
+image::SAMOVA2.png["Description du projet RIDDLE", width="50%"]
+

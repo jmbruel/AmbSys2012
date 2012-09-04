@@ -45,5 +45,5 @@ ifdef::backend-slidy2[>>>]
 
 
 // Pensez à inclure une illustration (ou plusieurs) ou à commentez la commande si aucune
-image::HomeSimu3D.png[""]
+image::HomeSimu3D.png[width="40%"]
 

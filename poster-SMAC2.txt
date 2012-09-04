@@ -28,7 +28,7 @@ ifdef::backend-slidy2[>>>]
 - Le contexte considéré en situation de gestion de crise (ex : feux de forêts), dotées de moyens de communication hétérogènes et évolutifs.
 
 // Pensez à inclure une illustration (ou plusieurs) ou à commentez la commande si aucune
-image::smac1.png[]
+image::smac1.png[width="40%"]
 
 ===== Comment?
 

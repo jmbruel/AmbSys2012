@@ -59,11 +59,9 @@ Deuxième partie réservée aux membres de l’axe {ssta} (Salle des thèses)
 // from MPG
 include::introduction.txt[]
 
-//================================================================
-// chapitres 
-//================================================================
+<<<
 
-== Posters
+== Démos
 
 //include::poster-xxx.txt[]
 <<<
@@ -75,12 +73,12 @@ include::poster-ELIPSE.txt[]
 include::poster-elipse2.txt[]
 
 <<<
-// from JMB -- poster
-include::poster-MACAO.txt[]
-
-<<<
 // from Julien Pinquier <pinquier@irit.fr> -- DEMO
 include::poster-SAMOVA1.txt[]
+
+<<<
+// from Isabelle -- DEMO
+include::poster-SAMOVA2.txt[]
 
 <<<
 // from Gatto -- DEMO
@@ -97,6 +95,14 @@ include::poster-income.txt[]
 <<<
 // from Pierre -- DEMO
 include::poster-ecotool.txt[]
+
+<<<
+
+== Posters
+
+<<<
+// from JMB -- poster
+include::poster-MACAO.txt[]
 
 <<<
 
