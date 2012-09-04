@@ -53,9 +53,11 @@ Deuxième partie réservée aux membres de l’axe {ssta} (Salle des thèses)
 16h30:: Discussions 
 17h00:: Conclusion
 
-== Introduction
+<<<
 
-Ce document constitue la compilation des posters...
+//== Introduction
+// from MPG
+include::introduction.txt[]
 
 //================================================================
 // chapitres 

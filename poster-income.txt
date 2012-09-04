@@ -1,5 +1,5 @@
 :me: mailto:arcangel@irit.fr[Jean-Paul Arcangeli]
-:poster-title: Projet ANR INCOME : INfrastructure de gestion de COntexte Multi-Échelle pour l’Internet des objets
+:poster-title: Projet ANR INCOME : INfrastructure de gestion de COntexte Multi-Échelle pour l’Internet des objets
 :auteur-poster: J.-P. Arcangeli
 :equipesmac: http://www.irit.fr/-Equipe-SMAC-[SMAC]
 :equipesig: http://www.irit.fr/-Equipe-SIG-[SIG]
@@ -34,5 +34,5 @@ Le programme scientifique du projet INCOME se décompose en trois thèmes princi
 INCOME apporte une contribution en termes de composants logiciels et d’intergiciels pour faciliter le développement et le déploiement d’applications grand public sensibles au contexte construites au dessus de l’Internet des objets. INCOME proposera des solutions de gestion de contexte multi-échelle génériques applicables à un grand nombre de domaines applicatifs grand public. Plusieurs scénarios applicatifs seront affinés pendant le projet et permettront de valider notre approche.
 
 // Pensez à inclure une illustration (ou plusieurs) ou à commentez la commande si aucune
-image:: schemaPositionnementV7.png["La gestion de contexte multi-échelle dans INCOME"]
+image::schemaPositionnementV7.png["La gestion de contexte multi-échelle dans INCOME"]
 
