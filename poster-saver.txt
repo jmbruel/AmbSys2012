@@ -1,0 +1,46 @@
+:poster-title: Saver : Self-Adaptive Energy Saver
+:auteur-poster: F Gatto
+
+// Leave it (change title at the begining of the document)
+=== {poster-title}
+
+ifdef::backend-slidy2[>>>]
+
+==== Participants
+
+Les participants à cette action sont :
+
+- mailto:gatto@irit.fr[François GATTO] (IRIT)
+- mailto:gleizes@irit.fr[Marie-Pierre GLEIZES] (IRIT)
+- mailto:lucas.elicegui@bnextenergy.com[Lucas ELICEGUI] (BNEXTENERGY)
+
+ifdef::backend-slidy2[>>>]
+
+==== Description
+
+SAVER est un système de régulation de l'énergie dans un bâtiment basée sur la technologie des AMAS (Adaptive Multi-Agent Systems). Il consiste en une population d'agents indépendants qui, de part leurs interactions et méthodes d'ajustement, produisent collectivement une fonction d'optimisation de l'énergie, en prenant en compte les actions réalisées par les utilisateurs. Le domaine de l'énergie est en forte évolution, tant du côté des producteurs et distributeurs que des consommateurs. La révolution prochaine des SMART-GRIDS caractérisera le domaine par un grand nombre d’entités à la fois consommatrices et productrices d'énergie. Ainsi, les systèmes multi-agents auto-adaptatifs sont un paradigme tout à fait adapté pour envisager à moindre effort des solutions efficaces d'échange et d'utilisation d'énergie.
+
+// Pensez à inclure une illustration (ou plusieurs) ou à commentez la commande si aucune
+image::saver.png["SAVER",width="10%"]
+
+===== Les agents du système 
+
+Le système est composé d'un collectif d'agents indépendants. Trois types d'agents représentent le monde extérieur au sein du système multi-agent et un quatrième est en charge de l'apprentissage : 
+
+-	Les agents *Capteurs* pour traiter l'information des dispositifs de mesures,
+-	les agents *Contrôleur* pour agir sur les équipements automatiques du bâtiment,
+-	les agents *Contraintes* pour représenter les besoins en confort des utilisateurs ainsi que les contraintes d'économie. 
+-	Les agents *Contexte* pour apprendre une partie de la dynamique du bâtiment en créant un lien entre une consigne donnée à un équipement et sa conséquence sur les contraintes.
+
+===== Comportement coopératif
+
+Les agents dit « Capteurs » sont les yeux du système. Ils perçoivent les informations des capteurs physiques présents dans le bâtiment et retransmettent les variations significatives de mesures aux agents « Contexte ». A leur tour, ils identifient si l'état actuel du bâtiment correspond au contexte de fonctionnement qu'ils représentent. Si tel est le cas ils proposent aux agents « Contrôleur » des consignes à appliquer aux différents équipements du bâtiment associés L'agent « Contrôleur » cherche à satisfaire au mieux les contraintes en sélectionnant l'action associée aux prévisions les plus intéressantes qui lui sont proposées.
+
+===== Objectifs 
+
+-	Perpétuellement s'adapter à la dynamique du bâtiment.
+-	Optimiser en permanence les flux d'énergie.
+-	Conserver une solution robuste aux défaillances
+-	Supporter l'ajout de nouveaux équipements.
+-	Se préparer pour l'avenir : les SMART-GRIDS.
+

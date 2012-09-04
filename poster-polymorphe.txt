@@ -1,0 +1,34 @@
+:me: mailto:peyrard@irit.fr[Fabrice Peyrard]
+:poster-title: POLYMORPHE: Processus Ouvert Libre dYnamique et Multidisciplinaire pour l’autOnomie Retrouvée des Personnes de l’Hôpital au domicilE
+:auteur-poster: Fabrice Peyrard
+
+// Leave it (change title at the begining of the document)
+=== {poster-title}
+
+ifdef::backend-slidy2[>>>]
+
+==== Participants
+
+Les participants à cette action sont :
+
+- {me} (IRIT équipe IRT - INP ENSEEIHT)
+- Marina CASULA (LEREPS)
+- Isabelle ETCHEVERRY (CLLE)
+- Antoine PIAU (CHU Toulouse­Gérontologie)
+- Alice ROUYER (LISST)
+
+ifdef::backend-slidy2[>>>]
+
+==== Description
+
+Le projet POLYMORPHE vise à proposer un processus collaboratif pluridisciplinaire pour la conception de systèmes socio-techniques ambiants pour l’aide à l’autonomie des personnes de l’hôpital au domicile. L’objectif est de disposer à l’issue du projet d’une méthodologie de conception participative avec les différents acteurs intervenants directement ou indirectement sur cette co-conception du système. Les acteurs initiaux du projet sont des enseignants-chercheurs en informatique (IRIT), en sciences sociales et humaines (LEREPS, CLLE, LISST) et des praticiens hospitaliers en gérontologie et cardiologie (CHU de Toulouse). Parallèlement au PEPS POLYMORPHE a été déposé et accepté le PEPS InOAAB (Indoor Outdoor Actimetry for Autonomy and well-Being) cofinancé par les deux instituts INS2I et INSHS.
+
+C’est avec le centre de prévention de la dépendance de l’hôpital La Grave de Toulouse que nous avons identifié la nécessité d’assister par un système ambiant les personnes en phase de début de dépendance lors de leurs déplacements (et courts séjours éventuels) hôpital-domicile-hôpital, afin de disposer d’informations relatives à ces patients et à leurs suivis médicaux. La conception de la plateforme collaborative s’appuie sur les travaux émanant méthodologies de conception de plateformes collaboratives. Il s’agit maintenant de composer un comité de pilotage (CP) et un comité technique (CT) pour la conception de la HealthBox qui fournira une preuve de concept de la méthodologie de la plateforme collaborative.
+
+// Pensez à inclure une illustration (ou plusieurs) ou à commentez la commande si aucune
+image:polymorphe.png["POLYMORPHE",width="50%"]
+
+Site Web: http://www.irit.fr/polymorphe/
+
+Contacts : Fabrice.Peyrard@irit.fr, Marina.Casula@univ-tlse1.fr, Rouyer@univ-tlse2.fr
+

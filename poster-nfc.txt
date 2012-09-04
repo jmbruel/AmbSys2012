@@ -1,0 +1,36 @@
+:me: mailto:peyrard@irit.fr[Fabrice Peyrard]
+:poster-title: Système d’assistance à la prise de médicaments basé sur la technologie sans contact
+:auteur-poster: Fabrice Peyrard
+
+// Leave it (change title at the begining of the document)
+=== {poster-title}
+
+ifdef::backend-slidy2[>>>]
+
+==== Participants
+
+Les participants à cette action sont :
+
+- {me} (IRIT équipe IRT - INP ENSEEIHT)
+- Emmanuel CONCHON (IRIT équipe IRT - ISIS Castres)
+
+ifdef::backend-slidy2[>>>]
+
+==== Description
+
+Notre système de santé s’améliore de jour en jour, au profit de personnes qui vivent de plus en plus longtemps. Les personnes âgées nécessitent pour beaucoup d'entre elles d'une assistance pour améliorer leur qualité de vie. Dans ce contexte d’aide à l’autonomie des personnes âgées en pré-dépendance, nous nous intéressons aux risques liés aux erreurs de prises médicamenteuses. Il existe trois sources potentielles de risque d’erreur. Premièrement lors de la prescription chez le médecin, par exemple le patient peut omettre involontairement d’indiquer au médecin une prise de médicaments pour le traitement en cours d’une autre pathologie. Deuxièmement lors de la délivrance des médicaments chez le pharmacien, une ordonnance peut être mal rédigée ou la posologie du médicament peut être erronée. Troisièmement lors de la prise de médicament le patient par exemple peut se tromper de boite, de posologie, mais également oublier de prendre à temps sa prescription. Les risques liés à ces trois étapes sont très différents, avec une probabilité croissante de la première vers la troisième. En effet, un médecin et un pharmacien doivent généralement poser les questions nécessaires pour éviter ces d’incidents qui sont peu fréquents mais les risques ne sont pas nuls. Cependant le troisième cas est le plus fréquent en particulier dans le cas de personnes âgées en phase de pré-dépendance, pour les sujets avec des déficiences cognitives ou des accidentés traumatisés crâniens. 
+
+Nous proposons un processus d’élaboration et d’utilisation de la prescription électronique (e-prescription) destinée à réduire les risques d’erreurs de prises médicamenteuses. Nous proposons de limiter les erreurs potentielles induites par le médecin ou le pharmacien grâce à un support informatisé de la prescription. La phase de prise de médicaments est assistée par un système interactif limitant les erreurs de prise. Le processus de prescription électronique s’appuie sur la technologie NFC (_Near Field Communication_) sans contact, entre le patient, le médecin, le pharmacien et les boites de médicaments.
+
+Depuis ces cinq dernières années, quelques travaux commencent à prendre en considération l'utilisation des technologies sans contact RFID/NFC au service de la personne pour des applications de santé. En particulier Alemdar et Ilie-Zudor balaient un large état de l'art des réseaux de capteurs pour la santé comme les technologies RFID passives et actives. Les travaux de Bravo traitent plus particulièrement de l'utilisation en milieu hospitalier de la technologie NFC pour les personnes atteintes de la maladie d'Alzheimer. Les travaux de Jara se focalisent sur les techniques d'identification de boites de médicaments pour les personnes diabétiques dans le cadre de l'Internet des objets. Enfin les travaux de Vergara traitent d'une prescription mobile à l'aide de la technologie NFC, mais cependant sans prendre en considération les échanges de données avec les systèmes d'informations de la santé.  
+
+L’originalité de nos travaux s’articule autour des points suivants : (1) prise d'appui sur les réflexions du CLIO Santé (Comité de Liaison Inter-Ordre Santé) pour informatiser le système de prescriptions en interaction avec les bases de données du DMP (Dossier Médical Personnalisé) et du DP (Dossier Pharmaceutique), (2) utilisation d’une technologie sans fil unique NFC tout au long du processus, (3) conservation d'un comportement naturel du processus en étant vigilant à chaque étape à l’acceptabilité de système, (4) respect de la non diffusion de données personnelles des patients (éthique), (5) proposition d'un processus multi-e-ordonnance et multi-utilisateurs pour la prise de médicaments à domicile et/ou à l'hôpital.
+
+<<<<
+
+Au travers de projets tuteurés et de stages M2R, nous avons focalisé nos travaux sur le développement de prototypes pour preuves de concepts en utilisant la technologie NFC dans l'environnement Android : (1)  pour tagger (lecture/écriture) des boites de médicaments sur smartphone, (2) échanger les e-prescriptions entres les acteurs patients, médecins et pharmaciens, (3) sécuriser (authentification et cryptage) des échanges des données en lecture/écriture et Peer-to-Peer entre les acteurs patients, médecins et pharmaciens, ainsi que les boites de médicaments.
+
+// Pensez à inclure une illustration (ou plusieurs) ou à commentez la commande si aucune
+image:nfc1.png["NFC",width="40%"] image:nfc2.jpg["NFC",width="40%"]
+
+Contacts : Fabrice.Peyrard@irit.fr, Emmanuel.Conchon@irit.fr

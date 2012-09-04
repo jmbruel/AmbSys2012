@@ -1,10 +1,16 @@
 :me: mailto:arcangel@irit.fr[Jean-Paul Arcangeli]
-:poster-title: Projet ANR INCOME : INfrastructure de gestion de COntexte Multi-Échelle pour l’Internet des objets
+:poster-title: Projet ANR INCOME : INfrastructure de gestion de COntexte Multi-Échelle pour l’Internet des objets
 :auteur-poster: J.-P. Arcangeli
 :equipesmac: http://www.irit.fr/-Equipe-SMAC-[SMAC]
 :equipesig: http://www.irit.fr/-Equipe-SIG-[SIG]
 :equipesiera: http://www.irit.fr/-Equipe-SIERA-[SIERA]
 :income: http://www.anr-income.fr[INCOME]
+:equipeacmes: http://samovar.telecom-sudparis.eu/spip.php?rubrique127[ACMES]
+:irit: http://www.irit.fr[IRIT]
+:tsp: http://www.telecom-sudparis.eu/fr_accueil.html[Institut Telecom SudParis]
+:artal: http://www.artal.fr[ARTAL]
+:aerospacevalley : http://www.aerospace-valley.com[AerospaceValley]
+:systematic: http://www.systematic-paris-region.org[System@tic]
 
 
 // Leave it (change title at the begining of the document)
@@ -14,13 +20,14 @@ ifdef::backend-slidy2[>>>]
 
 ==== Participants
 
-Les partenaires du projet {income} sont l’{IRIT}, l’Institut Telecom SudParis (équipe ACMES) et la société ARTAL (Labège, 31). Pour l’{IRIT} les équipes impliquées sont :
+Les partenaires du projet {income} sont l’{irit}, l’{tsp} (équipe {acmes}) et la société [artal} (Labège, 31). Pour l’{irit} les équipes impliquées sont :
 
 - {equipesmac}
 - {equipesig}
 - {equipesiera}
 
-La durée du projet est de 44 mois (2012-2015) et la coordination est assure par {me} (SMAC). Ce projet est labellisé par les pôles de compétitivité System@tic et AerospaceValley
+La durée du projet est de 44 mois (2012-2015) et la coordination est assurée par {me} (SMAC). Ce projet est labellisé par les pôles de compétitivité {aerospacevalley} et {systematic}
+
 
 ifdef::backend-slidy2[>>>]
 
@@ -34,5 +41,7 @@ Le programme scientifique du projet INCOME se décompose en trois thèmes princi
 INCOME apporte une contribution en termes de composants logiciels et d’intergiciels pour faciliter le développement et le déploiement d’applications grand public sensibles au contexte construites au dessus de l’Internet des objets. INCOME proposera des solutions de gestion de contexte multi-échelle génériques applicables à un grand nombre de domaines applicatifs grand public. Plusieurs scénarios applicatifs seront affinés pendant le projet et permettront de valider notre approche.
 
 // Pensez à inclure une illustration (ou plusieurs) ou à commentez la commande si aucune
-image:: schemaPositionnementV7.png["La gestion de contexte multi-échelle dans INCOME"]
+
+// Pensez à inclure une illustration (ou plusieurs) ou à commentez la commande si aucune
+image::schemaPositionnementV7.jpeg["La gestion de contexte multi-échelle dans INCOME",width="50%"]
 

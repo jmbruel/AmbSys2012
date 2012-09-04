@@ -35,5 +35,5 @@ Dans le cadre des SSTA, nous travaillons principalement sur les axes suivants :
 
 // Pensez à inclure une illustration (ou plusieurs) ou à commentez la commande si aucune
 image::macao.png["IDM et SSTA"]
-(http://goo.gl/3537D)
+(crédit image : http://goo.gl/3537D)
 

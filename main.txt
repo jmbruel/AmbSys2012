@@ -80,6 +80,7 @@ Liste des démos :
 . <<rosace,ROSACE>>
 . <<amadeus,AMADEUS>>
 . <<nfc,NFC>>
+. <<saver,SAVER>>
 
 //include::poster-xxx.txt[]
 <<<
@@ -118,6 +119,11 @@ include::poster-guivarch.txt[]
 include::poster-nfc.txt[]
 
 <<<
+// from F Gatto -- DEMO
+[[saver]]
+include::poster-saver.txt[]
+
+<<<
 
 == Posters
 [[posters]]
@@ -126,7 +132,7 @@ Liste des posters :
 
 . <<macao,Equipe MACAO>>
 . <<income,Projet INCOME>>
-. <<sig,Equipe SIG>>
+//. <<sig,Equipe SIG>>
 . <<ecotoul,Projet Ecotoul>>
 . <<poly,POLYMORPHE>>
 
@@ -139,6 +145,11 @@ include::poster-MACAO.txt[]
 // from Jean-Paul
 [[income]]
 include::poster-income.txt[]
+
+<<<
+// from André
+[[sig]]
+include::poster-sig.txt[]
 
 <<<
 // from Pierre
