@@ -47,6 +47,8 @@ Filtrées par la technologie des AMAS [2], les données de géolocalisation four
 
 Les informations sont diffusées en temps réel avec une période de rafraichissement de l’ordre de cinq minutes.
 
+<<<<
+
 ===== Verrous scientifiques
 
 - Confidentialité des données et respect de la vie privée.

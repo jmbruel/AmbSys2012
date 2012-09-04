@@ -12,17 +12,28 @@ ifdef::backend-slidy2[>>>]
 
 Les participants de l'équipe {equipe} à cette action sont :
 
-- {me}, Professeur
-- mailto:iulian.ober@irit.fr[Iulian Ober], Maître de Conférence, HdR
-- mailto:hamid.ober@irit.fr[Brahim Hamid], Maître de Conférence
-- Manzoor Ahmad, Doctorant
+- {me}
+- mailto:iulian.ober@irit.fr[Iulian Ober]
+- mailto:hamid.ober@irit.fr[Brahim Hamid]
 
 ifdef::backend-slidy2[>>>]
 
 ==== Description
 
-Au sein de l'équipe {equipe}, spécialisée en Ingénierie Dirigées par les Modèles (IDM), nous appliquons nos compétences en génie logiciel au service du développement d'applications embarquées ...
+Au sein de l'équipe {equipe}, spécialisée en Ingénierie Dirigées par les Modèles (IDM), nous appliquons nos compétences en génie logiciel au service du développement d'applications embarquées et plus particulièrement aux systèmes ambiants qui possèdent des caractéristiques qui bénéficient des apports de l'IDM :
+
+- complexité
+- multiplication des domaines et des langages d'expression des contraintes
+- importance des plateformes d'exécutions fiables, modulaires et dynamiques
+- adaptation dynamique
+
+Dans le cadre des SSTA, nous travaillons principalement sur les axes suivants :
+
+- Langages d'expressions de contraintes pour systèmes ambiants auto-adaptatifs
+- Composants sur étagères pour propriétés non-fonctionnelles
+- Méthodes formelles de V&amp;V de systèmes embarqués et temps réels
 
 // Pensez à inclure une illustration (ou plusieurs) ou à commentez la commande si aucune
-image::monIllustration.png["Commentaire Web"]
+image::macao.png["IDM et SSTA"]
+(http://goo.gl/3537D)
 

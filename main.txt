@@ -55,7 +55,7 @@ Deuxième partie réservée aux membres de l’axe {ssta} (Salle des thèses)
 
 == Contenu de ce livret
 
-- <<intro,Introduction>>
+- <<intro,Axe SSTA>>
 - <<demos,Démos>>
 - <<posters,Posters>>
 
@@ -79,6 +79,7 @@ Liste des démos :
 . <<riddle,RIDDLE>>
 . <<rosace,ROSACE>>
 . <<amadeus,AMADEUS>>
+. <<nfc,NFC>>
 
 //include::poster-xxx.txt[]
 <<<
@@ -112,6 +113,11 @@ include::poster-SMAC2.txt[]
 include::poster-guivarch.txt[]
 
 <<<
+// from Fabrice -- DEMO
+[[nfc]]
+include::poster-nfc.txt[]
+
+<<<
 
 == Posters
 [[posters]]
@@ -122,6 +128,7 @@ Liste des posters :
 . <<income,Projet INCOME>>
 . <<sig,Equipe SIG>>
 . <<ecotoul,Projet Ecotoul>>
+. <<poly,POLYMORPHE>>
 
 <<<
 // from JMB -- poster
@@ -137,6 +144,11 @@ include::poster-income.txt[]
 // from Pierre
 [[ecotoul]]
 include::poster-ecotool.txt[]
+
+<<<
+// from Fabrice
+[[poly]]
+include::poster-polymorphe.txt[]
 
 <<<
 
