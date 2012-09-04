@@ -97,6 +97,10 @@ include::poster-guivarch.txt[]
 include::poster-income.txt[]
 
 <<<
+// from Pierre -- DEMO
+include::poster-ecotool.txt[]
+
+<<<
 
 == A propos de ce document...
 

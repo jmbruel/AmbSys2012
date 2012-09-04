@@ -1,0 +1,61 @@
+:me: mailto:glize@irit.fr[Pierre Glize]
+:poster-title: EcoToul :  Mobilité intelligente par géolocalisation de smartphones
+:auteur-poster: Pierre Glize
+:equipe: http://www.irit.fr/-Equipe-SMAC-[SMAC]
+
+// Leave it (change title at the begining of the document)
+=== {poster-title}
+
+ifdef::backend-slidy2[>>>]
+
+==== Participants
+
+Les participants à cette action sont :
+
+- Marie-Pierre Gleizes
+- Georges da Costa
+- {me}
+- Jean-Marc Pierson
+
+
+ifdef::backend-slidy2[>>>]
+
+==== Description
+
+===== Problématique
+
+- Plusieurs dizaines de milliers de personnes circulent quotidiennement dans l’agglomération toulousaine.
+- Cette activité peut être comparée à celle d’une fourmilière où l’information anonymisée de chacun pourrait bénéficier à autrui sans l’instauration d’infrastructure lourde -et donc coûteuse- supplémentaire.
+- La plateforme EcoToul [1] est une application gratuite sur smartphone qui offre aussi un service centralisé dédié aux décideurs permettant de les assister pour mieux maitriser le trafic dans l’agglomération.
+
+// Pensez à inclure une illustration (ou plusieurs) ou à commentez la commande si aucune
+image::eco1.png[width="40%"]
+
+===== Principe
+
+image:eco2.png[width="10%"] image:eco3.png[width="10%"]
+
+- Chaque usager fournit sa position au central par 10 secondes
+- Le centre de régulation calcule les données trafic
+- L’usager accède gratuitement aux infos trafic en temps réel
+
+image:eco4.png[width="10%"]
+
+===== Comment?
+
+Filtrées par la technologie des AMAS [2], les données de géolocalisation fournissent une information par rue : sens de circulation, trottoirs, passages piétons, etc. 
+
+Les informations sont diffusées en temps réel avec une période de rafraichissement de l’ordre de cinq minutes.
+
+===== Verrous scientifiques
+
+- Confidentialité des données et respect de la vie privée.
+- Traitement temps réel de milliers de données d’usagers.
+- Optimisation énergétique des smartphones
+- Filtrage de données imprécises, incertaines, dynamiques.
+- Catégorisation de l’activité de chaque usager (déplacement par véhicule/2 roues/piétons, attente à un guichet...
+
+
+[1] Projet en partenariat avec la société UPETEC (www.upetec.fr) lauréat du concours “appel à idées innovantes” de la communauté urbaine du Grand Toulouse.
+
+[2] G. Di Marzo Serugendo, M.P. Gleizes and A. Karageorgos. Self-organizinf software – From natural to artificial adaptation. Springer, natural computing series, 2011.
