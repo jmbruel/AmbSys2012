@@ -34,6 +34,8 @@
 :univ-tlse: http://www.univ-toulouse.fr[Univesité de Toulouse]
 
 //pass::[<link rel="stylesheet" href="print.css" type="teext/css" media="print">]
+// text-align : justify;
+//font-family:verdana,helvetica,arial,sans-serif;
 
 == Programme
 
@@ -41,23 +43,36 @@ Première partie ouverte à l’ensemble des membres de l’IRIT (Auditorium J H
 
 13h45:: Accueil des participants
 14h00:: Ouverture par la Direction de l’IRIT
-14h10:: Présentation de l’axe {ssta} 
+14h05:: Présentation de l’axe {ssta} 
 par Marie-Pierre Gleizes, Responsable de l’axe
-14h40:: Présentation de Midi-Pyrénées Innovation 
-15h00:: Présentation de Toulouse Tech Transfer
-15h10:: Pause Café	
+14h25:: Présentation de Midi-Pyrénées Innovation 
+14h45:: Présentation de Toulouse Tech Transfer
+15h00:: Pause Café	
  
 Deuxième partie réservée aux membres de l’axe {ssta} (Salle des thèses)
 
-15h30:: Démonstrations 
-16h30:: Discussions 
+15h15:: Démonstrations et discussions 
 17h00:: Conclusion
 
 == Contenu de ce livret
 
-- <<intro,Axe SSTA>>
+- <<intro,Présentation de l'axe SSTA>>
 - <<demos,Démos>>
+. Logiciels de rééducation cognitive pour un meilleur maintien à domicile des personnes âgées, F. Vella
+. Technique d’Interaction ambiantes pour la manipulation d’Environnement Virtuel 3D : application à la simulation d’une maison intelligente et au couplage physique via le bus KNX, L.-P. Bergé
+. Indexation de données MultiMédia Embarquées pour le diagnostic et le suivi des traitements des Démences, J. Pinquier
+. Interaction Homme Robot : vers une perception multimodale de l'homme dans son environnement au quotidien... Le projet RIDDLE, I. Ferrané
+. Rosace :  Auto-organisation d’un collectif de robots en situation de crise, P. Glize
+. Amadeus : sensibilité au contexte et adaptation dans les systèmes ambiants par une approche multi-agent adaptative, V. Guivarch
+. Système d’assistance à la prise de médicaments basé sur la technologie sans contact, F. Peyrard
+. Saver : Self-Adaptive Energy Saver, F. Gatto
 - <<posters,Posters>>
+. Ingénierie Dirigées par les Modèles : application à l'ambiant>>, J.-M. Bruel
+. Projet ANR INCOME : INfrastructure de gestion de COntexte Multi-Échelle pour l’Internet des objets, J.-P. Arcangeli
+. Systèmes d’informations et systèmes ambiants, A. Péninou
+. EcoToul :  Mobilité intelligente par géolocalisation de smartphones, P. Glize
+. POLYMORPHE: Processus Ouvert Libre dYnamique et Multidisciplinaire pour l’autOnomie Retrouvée des Personnes de l’Hôpital au domicilE, F. Peyrard
+
 
 <<<
 
@@ -73,14 +88,14 @@ include::introduction.txt[]
 
 Liste des démos :
 
-. <<reduc,Rééducation cognitive>>
-. <<3d,Environnement virtuel 3D>>
-. <<immed,IMMED>>
-. <<riddle,RIDDLE>>
-. <<rosace,ROSACE>>
-. <<amadeus,AMADEUS>>
-. <<nfc,NFC>>
-. <<saver,SAVER>>
+. <<reduc,Logiciels de rééducation cognitive pour un meilleur maintien à domicile des personnes âgées>>, F. Vella
+. <<3d,Technique d’Interaction ambiantes pour la manipulation d’Environnement Virtuel 3D : application à la simulation d’une maison intelligente et au couplage physique via le bus KNX>>, L.-P. Bergé
+. <<immed,Indexation de données MultiMédia Embarquées pour le diagnostic et le suivi des traitements des Démences>>, J. Pinquier
+. <<riddle,Interaction Homme Robot : vers une perception multimodale de l'homme dans son environnement au quotidien... Le projet RIDDLE>>, I. Ferrané
+. <<rosace,Rosace :  Auto-organisation d’un collectif de robots en situation de crise>>, P. Glize
+. <<amadeus,Amadeus : sensibilité au contexte et adaptation dans les systèmes ambiants par une approche multi-agent adaptative>>, V. Guivarch
+. <<nfc,Système d’assistance à la prise de médicaments basé sur la technologie sans contact>>, F. Peyrard
+. <<saver,Saver : Self-Adaptive Energy Saver>>, F. Gatto
 
 //include::poster-xxx.txt[]
 <<<
@@ -130,11 +145,11 @@ include::poster-saver.txt[]
 
 Liste des posters :
 
-. <<macao,Equipe MACAO>>
-. <<income,Projet INCOME>>
-. <<sig,Equipe SIG>>
-. <<ecotoul,Projet Ecotoul>>
-. <<poly,POLYMORPHE>>
+. <<macao,Ingénierie Dirigées par les Modèles : application à l'ambiant>>, J.-M. Bruel
+. <<income,Projet ANR INCOME : INfrastructure de gestion de COntexte Multi-Échelle pour l’Internet des objets>>, J.-P. Arcangeli
+. <<sig,Systèmes d’informations et systèmes ambiants>>, A. Péninou
+. <<ecotoul,EcoToul :  Mobilité intelligente par géolocalisation de smartphones>>, P. Glize
+. <<poly,POLYMORPHE: Processus Ouvert Libre dYnamique et Multidisciplinaire pour l’autOnomie Retrouvée des Personnes de l’Hôpital au domicilE>>, F. Peyrard
 
 <<<
 // from JMB -- poster
@@ -168,7 +183,6 @@ include::poster-polymorphe.txt[]
 **********************************************************************
 Document généré par {jmb} via {asciidoc} le {Date}.
 
-Une version électronique avec liens clickables est disponible sur le site des séminaires de l'axe :
-http://www.irit.fr/-Seminaires,757-?lang=fr
-
+Une version électronique avec liens clickables est disponible sur le site de l'axe :
+http://www.irit.fr/-Systemes-sociotechniques-ambiants,675-?lang=fr
 **********************************************************************

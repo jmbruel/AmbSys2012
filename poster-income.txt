@@ -1,5 +1,5 @@
 :me: mailto:arcangel@irit.fr[Jean-Paul Arcangeli]
-:poster-title: Projet ANR INCOME : INfrastructure de gestion de COntexte Multi-Échelle pour l’Internet des objets
+:poster-title: Projet ANR INCOME : INfrastructure de gestion de COntexte Multi-Échelle pour l’Internet des objets
 :auteur-poster: J.-P. Arcangeli
 :equipesmac: http://www.irit.fr/-Equipe-SMAC-[SMAC]
 :equipesig: http://www.irit.fr/-Equipe-SIG-[SIG]
@@ -20,11 +20,7 @@ ifdef::backend-slidy2[>>>]
 
 ==== Participants
 
-Les partenaires du projet {income} sont l’{irit}, l’{tsp} (équipe {acmes}) et la société [artal} (Labège, 31). Pour l’{irit} les équipes impliquées sont :
-
-- {equipesmac}
-- {equipesig}
-- {equipesiera}
+Les partenaires du projet {income} sont l’{irit}, l’{tsp} (équipe {acmes}) et la société [artal} (Labège, 31). Pour l’{irit} les équipes impliquées sont : {equipesmac}, {equipesig} et {equipesiera}.
 
 La durée du projet est de 44 mois (2012-2015) et la coordination est assurée par {me} (SMAC). Ce projet est labellisé par les pôles de compétitivité {aerospacevalley} et {systematic}
 

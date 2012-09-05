@@ -1,5 +1,5 @@
 :me: mailto:glize@irit.fr[Pierre Glize]
-:poster-title: Rosace :  Auto-organisation d’un collectif de robots en situation de crise
+:poster-title: Rosace :  Auto-organisation d’un collectif de robots en situation de crise
 :auteur-poster: Pierre Glize
 :equipe: http://www.irit.fr/-Equipe-SMAC-[SMAC]
 

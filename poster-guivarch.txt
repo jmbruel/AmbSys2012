@@ -1,6 +1,6 @@
 ﻿:me: mailto:Valerian.Guivarch@irit.fr[Valérian Guivarch]
-:poster-title: Amadeus : sensibilité au contexte et adaptation dans les systèmes ambiants par une approche multi-agent adaptative
-:auteur-poster: V Guivarch, A Péninou, V Camps
+:poster-title: Amadeus : sensibilité au contexte et adaptation dans les systèmes ambiants par une approche multi-agent adaptative
+:auteur-poster: V. Guivarch, A. Péninou, V. Camps
 
 // Leave it (change title at the begining of the document)
 === {poster-title}
@@ -19,12 +19,16 @@ ifdef::backend-slidy2[>>>]
 
 ==== Description
 
-Nous nous intéressons ici à la capacité des systèmes ambiants à garantir au mieux la satisfaction de l’utilisateur. Pour atteindre cet objectif, il est nécessaire de rendre ces systèmes capables de s’adapter et d’anticiper ses besoins pour lui fournir un service (effectuer une action, fournir une information, etc.). Une telle solution impose de déterminer par apprentissage dynamique le comportement que doit adopter le système dans une/des situation(s) particulière(s) correspondant à un/des contexte(s) précis. Nous avons donc conçu Amadeus, un système multi-agent dont l'objectif est d'apprendre, en se basant exclusivement sur l'observation des actions de l'utilisateur, quel comportement adopter en fonction de son contexte. 
-Un domaine d'application pour Amadeus peut-être la domotique, ainsi nous considérons à titre d'exemple un appartement doté de capteurs et d'effecteurs, dans lequel évolue un utilisateur. En associant notre système à cet appartement, non pas de façon centralisé, mais indépendamment dans chacun des dispositifs de l'appartement, les interactions entre les différents Amadeus leur permettent d'observer les actions de l'utilisateur et de détecter les actions régulières. Ainsi, il lui est possible, lorsque des situations similaires se présentent, de réaliser l'action de l'utilisateur à sa place.
+Ce travail s'insère dans le cadre des systèmes ambiants et a pour objectif de concevoir des systèmes proactifs afin d'assister l'utilisateur dans ses activités quotidiennes. Cette proactivité impose que ces systèmes soient capables de s’adapter et d’anticiper les besoins de l'utilisateur pour lui fournir un service (effectuer une action, fournir une information, etc.). Cette adaptation repose sur un apprentissage dynamique du comportement que doit adopter le système en fonction de son contexte. 
 
-image::appartement.png["Illustration de l'appartement",width="40%"]
+Nous proposons le système multi-agent Amadeus dont l'objectif est d'apprendre, en se basant sur l'observation des actions de l'utilisateur, quel comportement doit adopter le système ambiant. Nous considérons à titre d'exemple un appartement doté de capteurs et d'effecteurs, dans lequel évolue un utilisateur. Une instance de notre système est associée à chacun des dispositifs présents dans l'appartement. Chaque instance d'Amadeus interagit avec les autres instances afin d'observer les actions de l'utilisateur et de détecter ses actions régulières sur le dispositif concerné. Le système est alors capable, lorsque des situations similaires se présentent, de réaliser l'action de l'utilisateur à sa place. L'apprentissage porte d'une part sur les actions de l'utilisateur, et d'autre part sur la similarité des situations dans lesquelles ces actions sont réalisées ou à réaliser.
 
-En appliquant le système à un simulateur, nous pouvons observer comment Amadeus réussit à réaliser les actions régulières de l'utilisateur. Sur le schéma suivant, la courbe bleue représente le nombre d'actions réalisés chaque jour par un utilisateur se déplaçant aléatoirement dans l'appartement, sur une période de cinquante jours. La courbe rouge représente les actions qu'Amadeus a effectué à sa place. Le premier jour, ne possédant aucune connaissance a priori, Amadeus n'a effectué aucune action, mais dès le second jour, il réussit à réaliser une grande partie des actions de l'utilisateur. Au fur et à mesure que les jours passent, le nombre d'actions que doit encore réaliser l'utilisateur diminue jusqu'à atteindre zéro.
+image:image.png["Illustration de l'appartement et graphe",width="40%"] image:graphe.png["Illustration de l'appartement et graphe",width="40%"]
 
+Nous avons pu observer par simulation comment Amadeus réussit à effectuer les actions régulières de l'utilisateur. Sur ce schéma, la courbe bleue représente le nombre d'actions réalisées chaque jour par un utilisateur se déplaçant aléatoirement dans l'appartement, sur une période de cinquante jours. La courbe rouge représente les actions qu'Amadeus a effectué à sa place. Le premier jour, ne possédant aucune connaissance a priori, Amadeus n'a effectué aucune action, mais dès le second jour, il réussit à réaliser une grande partie des actions de l'utilisateur. Au fur et à mesure que les jours passent, le nombre d'actions réalisées par l'utilisateur diminue jusqu'à tendre vers zéro.
 
-image::graphe.png["Graphe de résultat"]
+Notre système propose trois apports majeurs pour les systèmes ambiants :
+
+- l'ouverture qui permet d'ajouter ou de supprimer à la volée des dispositifs en cours de fonctionnement,
+- l'adaptation du comportement du système par apprentissage à partir des actions observées de l'utilisateur,
+- la généricité qui porte sur l'applicabilité de l'approche à différents types de système ambiant, ainsi que sur la méthode d'apprentissage proposée qui est locale à chaque dispositif et indépendante de la structure initiale du système.
