@@ -1,0 +1,71 @@
+﻿:me: mailto:andre.peninou@irit.fr[André Péninou]
+:mfcanut: mailto:marie-francoise.canut@irit.fr[Marie-Françoise Canut]
+:maxchevalier: mailto:max.chevalier@irit.fr[Max Chavalier]
+:poster-title: Systèmes d’informations et systèmes ambiants
+:auteur-poster: A. Péninou
+:equipe: http://www.irit.fr/-Equipe-SIG-[SIG]
+
+// Leave it (change title at the begining of the document)
+=== {poster-title}
+
+ifdef::backend-slidy2[>>>]
+
+==== Participants
+
+Les participants de l'équipe {equipe} à cette action sont :
+
+- {mfcanut}
+- {maxchevalier}
+- {me}
+
+ifdef::backend-slidy2[>>>]
+
+==== Description
+
+Une des caractéristiques des systèmes ambiants est d’impliquer un grand nombre de petits éléments électroniques, communicants et interconnectés, autonomes, sensibles au contexte. Cet ensemble d'entités hétérogènes enfouies dans l'environnement de l'utilisateur ont pour objectif de lui fournir des services dits "intelligents", et ce de manière transparente à l’utilisateur. 
+
+Dans cette perspective, *la notion de système d'information est modifiée* : d'une activité de traitement exclusivement centrée utilisateur, l'informatique devient interface entre "objets communicants" et personnes, et entre personnes. "Le système d’information" n'existe plus et laisse place à des "systèmes" plus ou moins diffus, plus ou moins recouvrant, manipulant tous des informations.
+
+Ainsi, d'un point de vue analyse et conception des systèmes d'informations, ces derniers deviennent omniprésents car accessibles par une multitude d'éléments électroniques consommant tous des informations, transparents car ambiants, mutli-serveur (ou multi-sources) car fondamentalement répartis.
+
+L'équipe SIG investit ce domaine afin d'intégrer dans les modèles classiques de SI (ou proposer de nouveaux modèles) certains éléments propres à l'intelligence ambiante : i) la notion de *contexte* (environnement physique, numérique, social) comme un élément complémentaire des profils utilisateurs classiques, ii) des mécanismes *d’adaptation dynamique des accès* qu'implique la prise en compte des contextes (contenu, présentation, navigation, services), iii) la nécessité, à partir des contextes et des activités de l'usager, de reconnaître des situations dans lesquelles le système d’information peut être *pro-actif par rapport à l’usager (en proposant par anticipation des informations par exemple)*.
+
+ifdef::backend-slidy2[>>>]
+
+image::sig.jpg[width="70%"]
+
+==== Résultats
+
+A ce jour, différents éléments de recherche sont avancés ou aboutis pour être expérimentés. Nous soulignerons les suivants :
+
+* Analyses de traces d'activités : un premier volet des travaux concerne plus particulièrement l'apprentissage des activités réalisées par l'usager dans différentes situations. Pour cela une thèse soutenue en juillet 2012 propose un modèle de *gestionnaire de situations contextuelles* (cf. figure a) ayant pour objectif de capitaliser des connaissances sur l'adéquation entre situations et activité permettant notamment par la suite d'être proactif dans les situations futures. Un deuxième volet de travaux utilise une approche multi-agents pour *apprendre les actions* que doit réaliser le système en observant les actions utilisateurs (travaux décrits dans la partie "démonstrations" de ce document).
+
+* Accès en environnement pervasif (cf. figure b) : une thèse (soutenance décembre 2012) propose un modèle d'accès à l'information prenant en compte les droits d'accès utilisateur mais aussi sa *situation* (tâche, localisation) et le degré d'importance de celle-ci. L'objectif est de proposer des mécanismes semi-automatiques permettant d'apporter l'information la plus pertinente et "utile" à l'utilisateur. Cette étude a été appliquée aux modèles de systèmes d'information médicaux.
+
+* Analyse des "Annotations sociales" qui permettent à l'utilisateur de commenter/compléter/critiquer des informations qu'il manipule au travers du SI. Ces annotations, partagées, sont notamment liées à une mesure de validité sociale qui permet d'identifier si une annotation fait consensus ou non dans la communauté d’usagers intéressées par les dites informations. Ces travaux ont été réalisés dans le cadre d’une thèse soutenue en 2008.
+
+* Profil utilisateur interopérable : une thèse (soutenue en novembre 2006) propose un modèle avec processus associés permettant de modéliser et manipuler des profils dans un contexte multi-applications. Cette proposition repose sur une couche sémantique partagée associée à un ensemble de fonctions permettant de convertir une portion d'un profil dans une  application pour une autre application. Cette conversion centralisée favorise la liberté de chaque application de modéliser le même usager de manière différente par rapport aux autres applications.
+
+* Profil utilisateur générique "social" : une thèse (soutenance décembre 2012) propose un modèle des centres d'intérêts d'un utilisateur indépendant de tout système d'information et donc échangeable, dont la sémantique est issue d’une taxonomie, et intégrant un volet "social" permettant de décrire les centres d'intérêts d'un utilisateur, sans connaissance a priori, à partir de son réseau social (par exemple facebook, viadeo, linked-in, échanges de mails, réseau professionnel).
+
+ifdef::backend-slidy2[>>>]
+
+==== Domaines d'application potentiels
+
+D'un point de vue SI, les applications envisagées en intelligence ambiante concernent principalement la recommandation et la personnalisation d’informations. Les applications potentielles sont nombreuses, citons : l'ambiant au domicile pour apporter de l’information "tout le temps" (santé, contrôle à distance, confort), des applications ambiantes et mobiles telles que les SI de tourisme ou de visites (régions, musées, …), la relation clients et les services associés (ciblage d'information, de services, …), la santé en intégrant le côté patient mais aussi l'ensemble des personnes autour (soignants, famille, proches, voisins, …).
+
+ifdef::backend-slidy2[>>>]
+
+==== Bibliographie
+
+* Mihaela Brut, Dana Al Kukhun, André Péninou, Marie-Françoise Canut, Florence Sèdes. APHR: Annotated Personal Health Record for Enabling Pervasive Healthcare (regular paper). Dans : International Workshop on Managing Health Information in Mobile Applications, at 12th IEEE International Conference on Mobile Data Management (HiMOA 2011), Lulea, Sweden, 06/06/2011-09/06/2011, Vol. 2, Sandra Geisler, Andreas Lorenz, Christoph Quix (Eds.), IEEE Computer Society, p. 73-79, juin 2011.
+
+* Hamdi Chaker, Max Chevalier, Chantal Soulé-Dupuy, André Tricot. Business Context Information Manager: application to Information Retrieval (regular paper). In : International Conference on Advances in Human-oriented and Personalized Mechanisms, Technologies, and Services (CENTRIC 2011), Barcelone, 23/10/2011-28/10/2011, IARIA, pp. 28-33, October 2011. 
+
+* Hamdi Chaker, Max Chevalier, Chantal Soulé-Dupuy, André Tricot. Improving information retrieval by modelling business context (regular paper). In : International Workshop on User Profiles in Multi-application Environments (at CENTRIC 2010) (MultiA-Pro 2010), Nice, 22/08/2010-27/08/2010, IEEExplore digital library, pp. 121-126, August 2010.
+
+* Max Chevalier, Christine Julien, Chantal Soulé-Dupuy. User Models for Adaptive Information Retrieval on the Web: towards an Interoperable and Semantic Model (peer review invited paper). In : International Journal of Adaptive, Resilient and Autonomic Systems, IGI Global, Hershey - USA, Vol. 3 N. 3, August 2012
+
+* Valérian Guivarch, Valérie Camps, André Péninou. Context awareness in ambient systems by an adaptive multi-agent approach (regular paper). Dans : International Joint Conference on Ambient Intelligence, Pisa - Italy, 13/11/2012-15/11/2012, 2012.
+
+* Dieudonné Tchuente, Marie-Françoise Canut, Nadine Jessel, André Péninou, Florence Sèdes. A community based algorithm for deriving users' profiles from egocentrics networks (regular paper). Dans : IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM 2012), Istanbul, 26/08/2012-29/08/2012, IEEE Computer Society, 2012.

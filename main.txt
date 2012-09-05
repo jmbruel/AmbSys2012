@@ -132,7 +132,7 @@ Liste des posters :
 
 . <<macao,Equipe MACAO>>
 . <<income,Projet INCOME>>
-//. <<sig,Equipe SIG>>
+. <<sig,Equipe SIG>>
 . <<ecotoul,Projet Ecotoul>>
 . <<poly,POLYMORPHE>>
 
